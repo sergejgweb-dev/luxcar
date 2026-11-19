@@ -256,7 +256,7 @@ if (!automobil) {
   const kontaktDugme = document.querySelector('.kontakt-dugme');
   if (salon.phone) {
     pozoviSalon.href = 'tel:' + salon.phone;
-    kontaktDugme.href = pozoviSalon.href;
+    kontaktDugme.href = '#kontakt-vozila';
   } else {
     pozoviSalon.hidden = true;
     kontaktDugme.href = '#kontakt-vozila';

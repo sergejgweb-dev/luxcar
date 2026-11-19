@@ -25,13 +25,13 @@ function prepareImages(root = document) {
 }
 function setupNavigation() {
   const footerContact = document.querySelector('#kontakt-podaci');
-  if (footerContact && salon.email) {
+  if (footerContact && salon.email && !footerContact.querySelector('a[href^="mailto:"]')) {
     const email = document.createElement('a');
     email.href = 'mailto:' + salon.email;
     email.textContent = salon.email;
     footerContact.appendChild(email);
   }
-  if (footerContact && salon.phone) {
+  if (footerContact && salon.phone && !footerContact.querySelector('a[href^="tel:"]')) {
     const line = footerContact.querySelector('p:not(.footer-heading)');
     if (line) {
       const link = document.createElement('a');
@@ -39,9 +39,9 @@ function setupNavigation() {
       link.textContent = salon.phone;
       line.replaceWith(link);
     }
-    const cta = document.querySelector('.kontakt-button');
-    if (cta) cta.href = 'tel:' + salon.phone;
   }
+  const cta = document.querySelector('.kontakt-button');
+  if (cta && footerContact) cta.href = '#kontakt-podaci';
   const button = document.querySelector("#hamburger");
   const nav = document.querySelector("#mobile-nav");
   if (!button || !nav) return;
