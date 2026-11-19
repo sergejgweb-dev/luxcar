@@ -24,10 +24,14 @@
 
     <link rel="stylesheet" href="./CSS/index.css" />
     <link rel="stylesheet" href="./CSS/detalji.css" />
-<link rel="stylesheet" href="./CSS/improvements.css" />
-  </head>
+<link rel="stylesheet" href="./CSS/improvements.css?v=brand-20261119" />
+  <link rel="preload" as="image" href="./slike/luxcar-logo.jpg" />
+    </head>
 
   <body>
+      <div class="brand-intro" aria-hidden="true">
+        <img src="./slike/luxcar-logo.jpg" alt="" width="150" height="150" fetchpriority="high" />
+      </div>
     <!-- Informacije na vrhu -->
     <section class="sekcija1">
         <p>PAŽLJIVO ODABRANA VOZILA <span>•</span> KVALITET KOJEM VJERUJETE</p>
@@ -35,7 +39,7 @@
 
     <header class="header">
         <a href="./index.html#pocetna" class="brand">
-          <div class="logo">L</div>
+          <img class="brand-logo" src="./slike/luxcar-logo.jpg" alt="" width="64" height="64" decoding="async" />
           <div class="naslov">
             <p class="name">LUXCAR</p>
             <p class="podnaslov">PREMIUM AUTOMOBILI</p>
@@ -183,7 +187,7 @@
     <section class="dno">
         <div class="footer-brand">
           <a href="./index.html#pocetna" class="brand footer-logo">
-            <div class="logo">L</div>
+            <img class="brand-logo" src="./slike/luxcar-logo.jpg" alt="" width="64" height="64" decoding="async" />
             <div class="naslov">
               <p class="name">LUXCAR</p>
               <p class="podnaslov">PREMIUM AUTOMOBILI</p>
