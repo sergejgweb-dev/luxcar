@@ -61,7 +61,12 @@ cars.forEach(function (car, index) {
   class="car-image"
 >
       <img
-  src="${carImages(car)[0] || placeholderImage}"
+  src="${imageSmallSource(carImages(car)[0] || placeholderImage)}"
+  srcset="${imageSourceSet(carImages(car)[0] || placeholderImage)}"
+  sizes="${cardImageSizes}"
+  width="${imageVariant(carImages(car)[0])?.width || 1200}"
+  height="${imageVariant(carImages(car)[0])?.height || 800}"
+  decoding="async"
   alt="${car.name} – polovni automobil u LUXCAR Gradiška"
   loading="lazy">
 

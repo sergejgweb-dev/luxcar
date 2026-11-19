@@ -14,10 +14,40 @@ function carImages(car) {
   return [...new Set([car.image, ...(car.images || [])])]
     .filter(src => src && src !== "#").map(src => src.replace(/^\.\.\//, "./"));
 }
+const cardImageSizes = '(min-width: 1400px) calc((100vw - 445px) / 3), (min-width: 1024px) calc((100vw - 420px) / 2), calc(100vw - 40px)';
+const galleryImageSizes = '(min-width: 1400px) 725px, (min-width: 1000px) 54vw, 90vw';
+function imageVariant(src) {
+  return typeof responsiveImages !== 'undefined' ? responsiveImages[src] : null;
+}
+function imageSourceSet(src) {
+  const variant = imageVariant(src);
+  return variant ? variant.sources.map(item => `${item.src} ${item.width}w`).join(', ') : '';
+}
+function imageSmallSource(src) {
+  return imageVariant(src)?.sources[0].src || src;
+}
+function setResponsiveImage(img, src, sizes) {
+  const variant = imageVariant(src);
+  if (variant) {
+    img.sizes = sizes;
+    img.srcset = imageSourceSet(src);
+    img.width = variant.width;
+    img.height = variant.height;
+  } else {
+    img.removeAttribute('srcset');
+    img.removeAttribute('sizes');
+  }
+  img.decoding = 'async';
+  img.src = imageSmallSource(src);
+}
 function prepareImages(root = document) {
   root.querySelectorAll("img").forEach(img => {
     const fallback = () => {
-      if (!img.src.endsWith("bez-fotografije.svg")) img.src = placeholderImage;
+      if (!img.src.endsWith("bez-fotografije.svg")) {
+        img.removeAttribute('srcset');
+        img.removeAttribute('sizes');
+        img.src = placeholderImage;
+      }
     };
     img.addEventListener("error", fallback);
     if (img.complete && img.naturalWidth === 0) fallback();

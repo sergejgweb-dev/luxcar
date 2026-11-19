@@ -72,7 +72,7 @@ if (!automobil) {
   document.querySelector(".cijena").textContent =
     formatPrice(automobil.price);
 
-  document.querySelector(".glavna-slika img").src = carImages(automobil)[0] || placeholderImage;
+  setResponsiveImage(document.querySelector(".glavna-slika img"), carImages(automobil)[0] || placeholderImage, galleryImageSizes);
 
   document.querySelector(".glavna-slika img").alt = automobil.name;
 
@@ -293,7 +293,7 @@ ostaleSlike.hidden = slikeAutomobila.length < 2;
 function prikaziSliku(index) {
   trenutnaSlika = index;
 
-  glavnaSlika.src = slikeAutomobila[trenutnaSlika];
+  setResponsiveImage(glavnaSlika, slikeAutomobila[trenutnaSlika], galleryImageSizes);
 
   const sveSlike = ostaleSlike.querySelectorAll("img");
 
@@ -314,7 +314,8 @@ slikeAutomobila.forEach(function (slika, index) {
   const novaSlika = document.createElement("img");
   novaSlika.loading = "lazy";
 
-  novaSlika.src = slika;
+  novaSlika.src = imageVariant(slika)?.thumb || slika;
+  novaSlika.decoding = 'async';
   novaSlika.alt = automobil.name;
 
   dugme.addEventListener("click", function () {
