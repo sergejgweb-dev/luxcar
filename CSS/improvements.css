@@ -1,0 +1,47 @@
+[hidden] { display: none !important; }
+a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 3px solid #9a804b;
+  outline-offset: 4px;
+}
+.car-link { width: auto; min-height: 44px; height: auto; padding: 9px 12px; font-size: 12px; }
+.car-price { font-size: 21px; }
+.car-bottom { flex-wrap: wrap; }
+.car-details h3 { font-size: 18px; }
+.car-specs span:empty { display: none; }
+.filter-hint { font-size: 12px; color: #666660; }
+.section-description, .car-subtitle, .oznake p, .filter-note p { color: #666660; }
+.mobile-filter { display: none; }
+@media (min-width: 1024px) { .load-more-btn { grid-column: 2; } }
+.ostale-slike button { padding: 0; border: 0; background: transparent; cursor: pointer; border-radius: 8px; }
+.oprema-sadrzaj.prosireno { max-height: none; }
+.oprema-sadrzaj.kratka-lista { max-height: none; }
+.oprema-sadrzaj.kratka-lista::after { display: none; }
+.kontakt-dugme { display: block; text-align: center; text-decoration: none; }
+.kontakt-dugmad p { color: var(--cream); font-size: 14px; }
+.detalji-main { display: grid; grid-template-columns: minmax(0, 1fr); gap: 25px; }
+.detalji-main > * { min-width: 0; }
+.detalji-main .nazad-link, .detalji-main .zaglavlje-vozila { margin-bottom: 0; }
+.cijena-i-specifikacije, .tehnicki-podaci, .oprema, .kontakt-vozila { margin-top: 0; }
+.cijena-vozila .dostupnost { display: flex; color: #476b39; }
+.cijena-vozila .status-tacka { margin: 0; }
+@media (min-width: 1000px) {
+  .detalji-main { grid-template-columns: minmax(0, 1.5fr) minmax(320px, 1fr); align-items: start; }
+  .nazad-link, .zaglavlje-vozila, .tehnicki-podaci, .oprema, .kontakt-vozila { grid-column: 1 / -1; }
+  .glavna-slika { height: 450px; }
+  .osnovne-specifikacije { grid-template-columns: repeat(2, 1fr); }
+  .cijena-i-specifikacije { padding: 24px; }
+}
+@media (max-width: 767px) {
+  .mainHeading { min-height: 470px; padding-top: 40px; padding-bottom: 45px; }
+  .headingOpis { font-size: 14px; }
+  .mobile-filter { display: block; padding: 14px 18px; background: white; border: 1px solid var(--border); }
+  .mobile-filter summary { cursor: pointer; font-weight: 700; }
+  .aside:has(.mobile-filter:not([open])) .filter-form,
+  .aside:has(.mobile-filter:not([open])) .filter-note { display: none; }
+  .osnovne-specifikacije { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cijena-vozila { flex-wrap: wrap; gap: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}

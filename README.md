@@ -11,3 +11,5 @@ Pokrenite `python -m http.server 8000` u folderu projekta i otvorite `http://loc
 ## Objavljivanje
 
 Stranica se objavljuje putem GitHub Pages sa grane `main`, iz korijena repozitorija.
+
+Galerije imaju najviše 7 fotografija u WebP formatu, do 1200 px.
