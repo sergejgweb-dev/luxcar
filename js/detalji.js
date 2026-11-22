@@ -120,6 +120,8 @@ if (!automobil) {
     ["Model", automobil.model],
     ["Tip vozila", automobil.tip],
     ["Broj osovina", automobil.brojOsovina],
+    ["Zapremina motora (l)", automobil.kubikaza],
+    ["Broj vrata", automobil.brojVrata],
     ["Prva registracija", automobil.prvaRegistracija || automobil.godinaPrveRegistracije],
     ["Veličina felgi", automobil.velicinaFelgi],
     ["Broj stepeni prenosa", automobil.brojStepeniPrenosa],
@@ -128,6 +130,9 @@ if (!automobil) {
     ["Broj sjedećih mjesta", automobil.sjedecihMjesta],
     ["Pogon", automobil.pogon],
     ["Broj prethodnih vlasnika", automobil.brojPrethodnihVlasnika],
+    ["Gume", automobil.posjedujeGume],
+    ["Tip ovjesa", automobil.tipOvjesa],
+    ["Registrovan do", automobil.registrovanDo],
   ];
 
   tehnickiPodaci.forEach(function (podatak) {
@@ -188,6 +193,11 @@ if (!automobil) {
     ["Broj ključeva", automobil.brojKljuceva],
     ["Metalik boja", automobil.metalik],
     ["Ocarinjeno", automobil.ocarinjen],
+    ["Registrovan", automobil.registrovan],
+    ["Registrovan ili ocarinjen", automobil.registrovanIliOcarinjen],
+    ["Zaštita / blokada", automobil.zastitaBlokada],
+    ["Rolo zavjese", automobil.roloZavjese],
+    ["Šiber", automobil.siber],
     ["Apple CarPlay", automobil.carPlay],
     ["Automatska svjetla", automobil.senzorAutoSvjetla],
     ["Head-up display", automobil.headUpDisplay],
@@ -216,6 +226,10 @@ if (!automobil) {
       `;
     }
   });
+
+  const opisVozila = document.querySelector('.opis-vozila');
+  opisVozila.hidden = !automobil.opis;
+  opisVozila.querySelector('p').textContent = automobil.opis || '';
 
   // PRIKAZIVANJE I SKRIVANJE OPREME
 
