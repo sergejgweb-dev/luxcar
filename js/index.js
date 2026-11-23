@@ -59,6 +59,7 @@ cars.forEach(function (car, index) {
    <a
   href="./detalji.html?id=${carId(car)}"
   class="car-image"
+  aria-label="Detalji vozila: ${car.name}"
 >
       <img
   src="${imageSmallSource(carImages(car)[0] || placeholderImage)}"
@@ -105,6 +106,7 @@ cars.forEach(function (car, index) {
 <a
   href="./detalji.html?id=${carId(car)}"
   class="car-link"
+  aria-label="Detalji vozila: ${car.name}"
 >
   Detalji vozila ↗
 </a>
