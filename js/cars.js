@@ -74,7 +74,7 @@ const cars = [
   {
     id: "citroen-c3-1-5-blue-hdi",
     image: "./slike/citroen-c3/instagram-DSHU2svjLgA-01.webp",
-    images: ["./slike/citroen-c3/citroen-c3.webp"],
+    images: ["./slike/citroen-c3/citroen-c3.webp","./slike/citroen-c3/unutrasnjost-72857157-11.webp","./slike/citroen-c3/unutrasnjost-72857157-12.webp","./slike/citroen-c3/unutrasnjost-72857157-13.webp"],
     name: "Citroen C3 1.5 Blue HDi",
     price: 18600,
     link: "https://olx.ba/artikal/citroen-c3-15-blue-hdi-72857157",
@@ -199,7 +199,7 @@ const cars = [
   {
     id: "peugeot-508-1-5-96kw-bluehdi-allure",
     image: "./slike/peugeot-508/olx-72919882-01.webp",
-    images: ["./slike/peugeot-508/olx-72919882-02.webp","./slike/peugeot-508/olx-72919882-03.webp","./slike/peugeot-508/olx-72919882-04.webp","./slike/peugeot-508/olx-72919882-05.webp","./slike/peugeot-508/olx-72919882-06.webp","./slike/peugeot-508/olx-72919882-07.webp"],
+    images: ["./slike/peugeot-508/olx-72919882-02.webp","./slike/peugeot-508/olx-72919882-03.webp","./slike/peugeot-508/olx-72919882-04.webp","./slike/peugeot-508/olx-72919882-05.webp","./slike/peugeot-508/olx-72919882-06.webp","./slike/peugeot-508/olx-72919882-07.webp","./slike/peugeot-508/unutrasnjost-72919882-11.webp","./slike/peugeot-508/unutrasnjost-72919882-13.webp","./slike/peugeot-508/unutrasnjost-72919882-19.webp"],
     name: "Peugeot 508 1.5 96kw BlueHDi Allure",
     price: 27500,
     link: "https://olx.ba/artikal/peugeot-508-15-96kw-bluehdi-allure-72919882",
@@ -272,7 +272,7 @@ const cars = [
   {
     id: "volkswagen-golf-vii-7-1-6-tdi-81kw-allstar-limited-edition",
     image: "./slike/golf7-19500/instagram-DZfGUzTjLms-01.webp",
-    images: ["./slike/golf7-19500/instagram-DZfGUzTjLms-02.webp","./slike/golf7-19500/instagram-DZfGUzTjLms-03.webp","./slike/golf7-19500/instagram-DZfGUzTjLms-04.webp","./slike/golf7-19500/instagram-DZfGUzTjLms-05.webp","./slike/golf7-19500/instagram-DZfGUzTjLms-06.webp","./slike/golf7-19500/instagram-DZfGUzTjLms-07.webp"],
+    images: ["./slike/golf7-19500/instagram-DZfGUzTjLms-02.webp","./slike/golf7-19500/instagram-DZfGUzTjLms-03.webp","./slike/golf7-19500/instagram-DZfGUzTjLms-04.webp","./slike/golf7-19500/instagram-DZfGUzTjLms-05.webp","./slike/golf7-19500/instagram-DZfGUzTjLms-06.webp","./slike/golf7-19500/instagram-DZfGUzTjLms-07.webp","./slike/golf7-19500/unutrasnjost-77293761-10.webp","./slike/golf7-19500/unutrasnjost-77293761-13.webp","./slike/golf7-19500/unutrasnjost-77293761-19.webp"],
     name: "Volkswagen Golf VII 7 1.6 TDI 81kw ALLSTAR (Limited Edition)",
     price: 19500,
     link: "https://olx.ba/artikal/volkswagen-golf-vii-7-16-tdi-81kw-allstar-limited-edition-77293761",
@@ -338,7 +338,7 @@ const cars = [
   {
     id: "toyota-urban-cruiser-1-4d-4x4",
     image: "./slike/toyota-urban/toyota.webp",
-    images: ["./slike/toyota-urban/olx-72831518-02.webp","./slike/toyota-urban/olx-72831518-03.webp","./slike/toyota-urban/olx-72831518-04.webp","./slike/toyota-urban/olx-72831518-05.webp","./slike/toyota-urban/olx-72831518-06.webp","./slike/toyota-urban/olx-72831518-07.webp"],
+    images: ["./slike/toyota-urban/olx-72831518-02.webp","./slike/toyota-urban/olx-72831518-03.webp","./slike/toyota-urban/olx-72831518-04.webp","./slike/toyota-urban/olx-72831518-05.webp","./slike/toyota-urban/olx-72831518-06.webp","./slike/toyota-urban/olx-72831518-07.webp","./slike/toyota-urban/unutrasnjost-72831518-08.webp"],
     name: "Toyota Urban Cruiser 1.4D 66kw 4x4",
     price: 12000,
     link: "https://olx.ba/artikal/toyota-urban-cruiser-14d-66kw-4x4-72831518",
@@ -390,7 +390,7 @@ const cars = [
   {
     id: "volkswagen-tiguan-2-0-tdi-r-line-black-edition-virtual-cockpit",
     image: "./slike/tiguan-53000/olx-72862479-01.webp",
-    images: ["./slike/tiguan-53000/olx-72862479-02.webp","./slike/tiguan-53000/olx-72862479-03.webp","./slike/tiguan-53000/olx-72862479-04.webp","./slike/tiguan-53000/olx-72862479-05.webp","./slike/tiguan-53000/olx-72862479-06.webp","./slike/tiguan-53000/olx-72862479-07.webp"],
+    images: ["./slike/tiguan-53000/olx-72862479-02.webp","./slike/tiguan-53000/olx-72862479-03.webp","./slike/tiguan-53000/olx-72862479-04.webp","./slike/tiguan-53000/olx-72862479-05.webp","./slike/tiguan-53000/olx-72862479-06.webp","./slike/tiguan-53000/olx-72862479-07.webp","./slike/tiguan-53000/unutrasnjost-72862479-11.webp","./slike/tiguan-53000/unutrasnjost-72862479-17.webp","./slike/tiguan-53000/unutrasnjost-72862479-18.webp"],
     name: "Volkswagen Tiguan 2.0 TDI R Line Black Edition Virtual cockpit",
     price: 53000,
     link: "https://olx.ba/artikal/volkswagen-tiguan-20-tdi-r-line-black-edition-virtual-cockpit-72862479",
@@ -525,7 +525,7 @@ const cars = [
   {
     id: "opel-corsa-e-cosmo-innovation-1-3-cdti-55kw",
     image: "./slike/opel-corsa/instagram-DSNFu7ojA8j-01.webp",
-    images: ["./slike/opel-corsa/olx-72881326-01.webp","./slike/opel-corsa/olx-72881326-02.webp","./slike/opel-corsa/olx-72881326-03.webp","./slike/opel-corsa/olx-72881326-04.webp","./slike/opel-corsa/olx-72881326-05.webp","./slike/opel-corsa/olx-72881326-06.webp"],
+    images: ["./slike/opel-corsa/olx-72881326-01.webp","./slike/opel-corsa/olx-72881326-02.webp","./slike/opel-corsa/olx-72881326-03.webp","./slike/opel-corsa/olx-72881326-04.webp","./slike/opel-corsa/olx-72881326-05.webp","./slike/opel-corsa/olx-72881326-06.webp","./slike/opel-corsa/unutrasnjost-72881326-11.webp","./slike/opel-corsa/unutrasnjost-72881326-14.webp"],
     name: "Opel Corsa E Cosmo/Innovation 1.3 CDTI 55kw",
     price: 11000,
     link: "https://olx.ba/artikal/opel-corsa-e-cosmoinnovation-13-cdti-55kw-72881326",
@@ -701,7 +701,7 @@ const cars = [
   {
     id: "volkswagen-touareg-3-0-tdi-4motion",
     image: "./slike/touareg/instagram-DT5cxE1jC2e-01.webp",
-    images: ["./slike/touareg/olx-73805716-01.webp","./slike/touareg/olx-73805716-02.webp","./slike/touareg/olx-73805716-03.webp","./slike/touareg/olx-73805716-04.webp","./slike/touareg/olx-73805716-05.webp","./slike/touareg/olx-73805716-06.webp"],
+    images: ["./slike/touareg/olx-73805716-01.webp","./slike/touareg/olx-73805716-02.webp","./slike/touareg/olx-73805716-03.webp","./slike/touareg/olx-73805716-04.webp","./slike/touareg/olx-73805716-05.webp","./slike/touareg/olx-73805716-06.webp","./slike/touareg/unutrasnjost-73805716-13.webp","./slike/touareg/unutrasnjost-73805716-16.webp","./slike/touareg/unutrasnjost-73805716-18.webp"],
     name: "Volkswagen Touareg 3.0 V6 180kw HighLine DSG 4motion 4x4",
     price: 30900,
     category: "SUV / DIZEL",
@@ -771,7 +771,7 @@ const cars = [
   {
     id: "audi-a6-3-0-tdi-quattro",
     image: "./slike/audi-a6/olx-72878835-01.webp",
-    images: ["./slike/audi-a6/olx-72878835-02.webp","./slike/audi-a6/olx-72878835-03.webp","./slike/audi-a6/olx-72878835-04.webp","./slike/audi-a6/olx-72878835-05.webp","./slike/audi-a6/olx-72878835-06.webp","./slike/audi-a6/olx-72878835-07.webp"],
+    images: ["./slike/audi-a6/olx-72878835-02.webp","./slike/audi-a6/olx-72878835-03.webp","./slike/audi-a6/olx-72878835-04.webp","./slike/audi-a6/olx-72878835-05.webp","./slike/audi-a6/olx-72878835-06.webp","./slike/audi-a6/olx-72878835-07.webp","./slike/audi-a6/unutrasnjost-72878835-11.webp","./slike/audi-a6/unutrasnjost-72878835-12.webp","./slike/audi-a6/unutrasnjost-72878835-16.webp"],
     name: "Audi A6 3.0 TDI S-Line Quattro",
     price: 43000,
     category: "Limuzina / DIZEL",
@@ -1186,7 +1186,7 @@ const cars = [
   {
     id: "bmw-420xd-gran-coupe-g26-m-sport-pro-mild-hybrid",
     image: "./slike/bmw-420XD-96000/olx-72918970-01.webp",
-    images: ["./slike/bmw-420XD-96000/olx-72918970-02.webp","./slike/bmw-420XD-96000/olx-72918970-03.webp","./slike/bmw-420XD-96000/olx-72918970-04.webp","./slike/bmw-420XD-96000/olx-72918970-05.webp","./slike/bmw-420XD-96000/olx-72918970-06.webp","./slike/bmw-420XD-96000/olx-72918970-07.webp"],
+    images: ["./slike/bmw-420XD-96000/olx-72918970-02.webp","./slike/bmw-420XD-96000/olx-72918970-03.webp","./slike/bmw-420XD-96000/olx-72918970-04.webp","./slike/bmw-420XD-96000/olx-72918970-05.webp","./slike/bmw-420XD-96000/olx-72918970-06.webp","./slike/bmw-420XD-96000/olx-72918970-07.webp","./slike/bmw-420XD-96000/unutrasnjost-72918970-15.webp","./slike/bmw-420XD-96000/unutrasnjost-72918970-17.webp","./slike/bmw-420XD-96000/unutrasnjost-72918970-20.webp"],
     name: "BMW 420xd Gran Coupe G26 M Sport Pro Mild-Hybrid",
     price: 96000,
     link: "https://olx.ba/artikal/bmw-420xd-gran-coupe-g26-m-sport-pro-mild-hybrid-72918970",
@@ -1333,7 +1333,7 @@ const cars = [
   {
     id: "citroen-c4-cactus-shine",
     image: "./slike/citroen-cactus/instagram-DfSglUxDILg-01.webp",
-    images: ["./slike/citroen-cactus/instagram-DfSglUxDILg-02.webp","./slike/citroen-cactus/instagram-DfSglUxDILg-03.webp","./slike/citroen-cactus/instagram-DfSglUxDILg-04.webp","./slike/citroen-cactus/instagram-DfSglUxDILg-05.webp","./slike/citroen-cactus/instagram-DfSglUxDILg-06.webp","./slike/citroen-cactus/instagram-DfSglUxDILg-07.webp"],
+    images: ["./slike/citroen-cactus/instagram-DfSglUxDILg-02.webp","./slike/citroen-cactus/instagram-DfSglUxDILg-03.webp","./slike/citroen-cactus/instagram-DfSglUxDILg-04.webp","./slike/citroen-cactus/instagram-DfSglUxDILg-05.webp","./slike/citroen-cactus/instagram-DfSglUxDILg-06.webp","./slike/citroen-cactus/instagram-DfSglUxDILg-07.webp","./slike/citroen-cactus/unutrasnjost-80833742-10.webp","./slike/citroen-cactus/unutrasnjost-80833742-12.webp","./slike/citroen-cactus/unutrasnjost-80833742-14.webp"],
     name: "Citroen C4 Cactus Shine LED Navi",
     price: 13500,
     link: "https://olx.ba/artikal/citroen-c4-cactus-shine-led-navi-80833742",
@@ -1400,7 +1400,7 @@ const cars = [
   {
     id: "bmw-116d-f40-advantage-2021-virtual-cockpit-alpine-white",
     image: "./slike/bmw-116d/instagram-DSKGDMpDEPl-01.webp",
-    images: ["./slike/bmw-116d/olx-72877675-01.webp","./slike/bmw-116d/olx-72877675-02.webp","./slike/bmw-116d/olx-72877675-03.webp","./slike/bmw-116d/olx-72877675-04.webp","./slike/bmw-116d/olx-72877675-05.webp","./slike/bmw-116d/olx-72877675-06.webp"],
+    images: ["./slike/bmw-116d/olx-72877675-01.webp","./slike/bmw-116d/olx-72877675-02.webp","./slike/bmw-116d/olx-72877675-03.webp","./slike/bmw-116d/olx-72877675-04.webp","./slike/bmw-116d/olx-72877675-05.webp","./slike/bmw-116d/olx-72877675-06.webp","./slike/bmw-116d/unutrasnjost-72877675-10.webp","./slike/bmw-116d/unutrasnjost-72877675-14.webp","./slike/bmw-116d/unutrasnjost-72877675-12.webp"],
     name: "BMW 116d F40 Advantage 2021 Virtual Cockpit Alpine White",
     price: 29200,
     link: "https://olx.ba/artikal/bmw-116d-f40-advantage-2021-virtual-cockpit-alpine-white-72877675",
@@ -1473,7 +1473,7 @@ const cars = [
   {
     id: "volkswagen-golf-7-1-6-tdi-85kw-dsg",
     image: "./slike/golf7-30000/olx-77372351-01.webp",
-    images: ["./slike/golf7-30000/olx-77372351-02.webp","./slike/golf7-30000/olx-77372351-03.webp","./slike/golf7-30000/olx-77372351-04.webp","./slike/golf7-30000/olx-77372351-05.webp","./slike/golf7-30000/olx-77372351-06.webp","./slike/golf7-30000/olx-77372351-07.webp"],
+    images: ["./slike/golf7-30000/olx-77372351-02.webp","./slike/golf7-30000/olx-77372351-03.webp","./slike/golf7-30000/olx-77372351-04.webp","./slike/golf7-30000/olx-77372351-05.webp","./slike/golf7-30000/olx-77372351-06.webp","./slike/golf7-30000/olx-77372351-07.webp","./slike/golf7-30000/unutrasnjost-77372351-10.webp","./slike/golf7-30000/unutrasnjost-77372351-12.webp","./slike/golf7-30000/unutrasnjost-77372351-14.webp"],
     name: "Volkswagen Golf 7.5 7 1.6 TDI 85kw DSG (160.000km)",
     price: 30000,
     link: "https://olx.ba/artikal/volkswagen-golf-75-7-16-tdi-85kw-dsg-160000km-77372351",
@@ -1544,7 +1544,7 @@ const cars = [
   {
     id: "opel-astra-j-1-7-cdti-92kw-cosmo",
     image: "./slike/opel-astra/instagram-DSpnVZ2DL-x-01.webp",
-    images: ["./slike/opel-astra/olx-73024120-01.webp","./slike/opel-astra/olx-73024120-02.webp","./slike/opel-astra/olx-73024120-03.webp","./slike/opel-astra/olx-73024120-04.webp","./slike/opel-astra/olx-73024120-05.webp","./slike/opel-astra/olx-73024120-06.webp"],
+    images: ["./slike/opel-astra/olx-73024120-01.webp","./slike/opel-astra/olx-73024120-02.webp","./slike/opel-astra/olx-73024120-03.webp","./slike/opel-astra/olx-73024120-04.webp","./slike/opel-astra/olx-73024120-05.webp","./slike/opel-astra/olx-73024120-06.webp","./slike/opel-astra/unutrasnjost-73024120-10.webp","./slike/opel-astra/unutrasnjost-73024120-11.webp"],
     name: "Opel Astra J 1.7 CDTi 92kw Cosmo",
     price: 7200,
     link: "https://olx.ba/artikal/opel-astra-j-17-cdti-92kw-cosmo-73024120",
@@ -1753,7 +1753,7 @@ const cars = [
   {
     id: "volkswagen-tiguan-2-0-tdi-virtualcockpit-dsg-4motion",
     image: "./slike/tiguan/olx-72832181-01.webp",
-    images: ["./slike/tiguan/olx-72832181-02.webp","./slike/tiguan/olx-72832181-03.webp","./slike/tiguan/olx-72832181-04.webp","./slike/tiguan/olx-72832181-05.webp","./slike/tiguan/olx-72832181-06.webp","./slike/tiguan/olx-72832181-07.webp"],
+    images: ["./slike/tiguan/olx-72832181-02.webp","./slike/tiguan/olx-72832181-03.webp","./slike/tiguan/olx-72832181-04.webp","./slike/tiguan/olx-72832181-05.webp","./slike/tiguan/olx-72832181-06.webp","./slike/tiguan/olx-72832181-07.webp","./slike/tiguan/unutrasnjost-72832181-09.webp","./slike/tiguan/unutrasnjost-72832181-10.webp","./slike/tiguan/unutrasnjost-72832181-13.webp"],
     name: "Volkswagen Tiguan 2.0 TDI VirtualCockpit DSG 4motion Kamera 360",
     price: 37000,
     link: "https://olx.ba/artikal/volkswagen-tiguan-20-tdi-virtualcockpit-dsg-4motion-kamera-360-72832181",
@@ -1831,7 +1831,7 @@ const cars = [
   {
     id: "mercedes-sprinter-516-cdi-thermo-king-carrier-kombi",
     image: "./slike/sprinter/olx-72881598-01.webp",
-    images: ["./slike/sprinter/olx-72881598-02.webp","./slike/sprinter/olx-72881598-03.webp","./slike/sprinter/olx-72881598-04.webp","./slike/sprinter/olx-72881598-05.webp","./slike/sprinter/olx-72881598-06.webp","./slike/sprinter/olx-72881598-07.webp"],
+    images: ["./slike/sprinter/olx-72881598-02.webp","./slike/sprinter/olx-72881598-03.webp","./slike/sprinter/olx-72881598-04.webp","./slike/sprinter/olx-72881598-05.webp","./slike/sprinter/olx-72881598-06.webp","./slike/sprinter/olx-72881598-07.webp","./slike/sprinter/unutrasnjost-72881598-07.webp","./slike/sprinter/unutrasnjost-72881598-10.webp","./slike/sprinter/unutrasnjost-72881598-13.webp"],
     name: "Mercedes Sprinter 516 CDI Thermo King Carrier Kombi Hladnjaca",
     price: 28000,
     link: "https://olx.ba/artikal/mercedes-sprinter-516-cdi-thermo-king-carrier-kombi-hladnjaca-72881598",
@@ -1865,7 +1865,7 @@ const cars = [
   {
     id: "bmw-318d-e91-2-0d-100kw-automatic-touring",
     image: "./slike/bmw-318d/instagram-DShoXh7jNQl-01.webp",
-    images: ["./slike/bmw-318d/olx-72939961-01.webp","./slike/bmw-318d/olx-72939961-02.webp","./slike/bmw-318d/olx-72939961-03.webp","./slike/bmw-318d/olx-72939961-04.webp","./slike/bmw-318d/olx-72939961-05.webp","./slike/bmw-318d/olx-72939961-06.webp"],
+    images: ["./slike/bmw-318d/olx-72939961-01.webp","./slike/bmw-318d/olx-72939961-02.webp","./slike/bmw-318d/olx-72939961-03.webp","./slike/bmw-318d/olx-72939961-04.webp","./slike/bmw-318d/olx-72939961-05.webp","./slike/bmw-318d/olx-72939961-06.webp","./slike/bmw-318d/unutrasnjost-72939961-11.webp","./slike/bmw-318d/unutrasnjost-72939961-12.webp","./slike/bmw-318d/unutrasnjost-72939961-13.webp"],
     name: "BMW 318d E91 2.0d 100kw Automatic Touring",
     price: 10800,
     link: "https://olx.ba/artikal/bmw-318d-e91-20d-100kw-automatic-touring-72939961",
@@ -1937,7 +1937,7 @@ const cars = [
   {
     id: "fiat-doblo-1-3-multijet-66kw-cargo-professional",
     image: "./slike/filat-doblo-12700/olx-72917647-01.webp",
-    images: ["./slike/filat-doblo-12700/olx-72917647-02.webp","./slike/filat-doblo-12700/olx-72917647-03.webp","./slike/filat-doblo-12700/olx-72917647-04.webp","./slike/filat-doblo-12700/olx-72917647-05.webp","./slike/filat-doblo-12700/olx-72917647-06.webp","./slike/filat-doblo-12700/olx-72917647-07.webp"],
+    images: ["./slike/filat-doblo-12700/olx-72917647-02.webp","./slike/filat-doblo-12700/olx-72917647-03.webp","./slike/filat-doblo-12700/olx-72917647-04.webp","./slike/filat-doblo-12700/olx-72917647-05.webp","./slike/filat-doblo-12700/olx-72917647-06.webp","./slike/filat-doblo-12700/olx-72917647-07.webp","./slike/filat-doblo-12700/unutrasnjost-72917647-09.webp","./slike/filat-doblo-12700/unutrasnjost-72917647-11.webp"],
     name: "Fiat Doblo 1.3 MultiJet 66kw Cargo Proffesional Caddy Kedi",
     price: 12700,
     link: "https://olx.ba/artikal/fiat-doblo-13-multijet-66kw-cargo-proffesional-caddy-kedi-72917647",
@@ -1971,7 +1971,7 @@ const cars = [
   {
     id: "bmw-x1-18d-2-0-xdrive-105kw-sport-line",
     image: "./slike/bmwX1-19900/olx-75177702-01.webp",
-    images: ["./slike/bmwX1-19900/olx-75177702-02.webp","./slike/bmwX1-19900/olx-75177702-03.webp","./slike/bmwX1-19900/olx-75177702-04.webp","./slike/bmwX1-19900/olx-75177702-05.webp","./slike/bmwX1-19900/olx-75177702-06.webp","./slike/bmwX1-19900/olx-75177702-07.webp"],
+    images: ["./slike/bmwX1-19900/olx-75177702-02.webp","./slike/bmwX1-19900/olx-75177702-03.webp","./slike/bmwX1-19900/olx-75177702-04.webp","./slike/bmwX1-19900/olx-75177702-05.webp","./slike/bmwX1-19900/olx-75177702-06.webp","./slike/bmwX1-19900/olx-75177702-07.webp","./slike/bmwX1-19900/unutrasnjost-75177702-13.webp","./slike/bmwX1-19900/unutrasnjost-75177702-15.webp","./slike/bmwX1-19900/unutrasnjost-75177702-17.webp"],
     name: "BMW X1 18d 2.0 XDrive 105kw Sport Line (153.000 km) E84 Facelift",
     price: 19900,
     link: "https://olx.ba/artikal/bmw-x1-18d-20-xdrive-105kw-sport-line-153000-km-e84-facelift-75177702",
@@ -2038,7 +2038,7 @@ const cars = [
   {
     id: "renault-grand-scenic-1-6-96kw-facelift-7-sjedista",
     image: "./slike/grand-scenic-12500/instagram-DSNFe9mjBSr-01.webp",
-    images: ["./slike/grand-scenic-12500/olx-72880911-01.webp","./slike/grand-scenic-12500/olx-72880911-02.webp","./slike/grand-scenic-12500/olx-72880911-03.webp","./slike/grand-scenic-12500/olx-72880911-04.webp","./slike/grand-scenic-12500/olx-72880911-05.webp","./slike/grand-scenic-12500/olx-72880911-06.webp"],
+    images: ["./slike/grand-scenic-12500/olx-72880911-01.webp","./slike/grand-scenic-12500/olx-72880911-02.webp","./slike/grand-scenic-12500/olx-72880911-03.webp","./slike/grand-scenic-12500/olx-72880911-04.webp","./slike/grand-scenic-12500/olx-72880911-05.webp","./slike/grand-scenic-12500/olx-72880911-06.webp","./slike/grand-scenic-12500/unutrasnjost-72880911-10.webp","./slike/grand-scenic-12500/unutrasnjost-72880911-14.webp"],
     name: "Renault Grand Scenic 1.6 96kw FACELIFT 7 sjedista",
     price: 12500,
     link: "https://olx.ba/artikal/renault-grand-scenic-16-96kw-facelift-7-sjedista-72880911",
@@ -2110,7 +2110,7 @@ const cars = [
   {
     id: "audi-a4-3-0-tdi-180kw-s-line-quattro-automatic",
     image: "./slike/audiA4-18300/instagram-DSNF-3njJx1-01.webp",
-    images: ["./slike/audiA4-18300/olx-72881954-01.webp","./slike/audiA4-18300/olx-72881954-02.webp","./slike/audiA4-18300/olx-72881954-03.webp","./slike/audiA4-18300/olx-72881954-04.webp","./slike/audiA4-18300/olx-72881954-05.webp","./slike/audiA4-18300/olx-72881954-06.webp"],
+    images: ["./slike/audiA4-18300/olx-72881954-01.webp","./slike/audiA4-18300/olx-72881954-02.webp","./slike/audiA4-18300/olx-72881954-03.webp","./slike/audiA4-18300/olx-72881954-04.webp","./slike/audiA4-18300/olx-72881954-05.webp","./slike/audiA4-18300/olx-72881954-06.webp","./slike/audiA4-18300/unutrasnjost-72881954-11.webp","./slike/audiA4-18300/unutrasnjost-72881954-12.webp","./slike/audiA4-18300/unutrasnjost-72881954-16.webp"],
     name: "Audi A4 3.0 TDI 180kw S-Line Quattro Automatic",
     price: 18300,
     link: "https://olx.ba/artikal/audi-a4-30-tdi-180kw-s-line-quattro-automatic-72881954",
